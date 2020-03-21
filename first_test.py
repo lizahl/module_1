@@ -51,7 +51,7 @@ def shortener(string):
     for i in longstring:
         if len(i) > 6:
 		i = i[0:6] + "*"
-		strng.append(i)
+	strng.append(i)
     return ' '.join(strng)            
 
 
